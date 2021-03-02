@@ -1,0 +1,11 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "D657DKB28X.com.tencentgame.test",
+				"paths": [ "*"]
+			}
+		]
+	}
+}
