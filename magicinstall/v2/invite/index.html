@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>invite</title>
+</head>
+<body>
+  <script type="text/javascript" src="https://mi.mchuayi.com/v2/traceinstall.js?app_key=ONE"></script> 
+  <script>
+    // 开启粘贴板功能
+    new TraceInstall({ isEnableClipboard: true });
+
+    function download() {
+      // 调用TraceInstall的copy方法会往粘贴板写入url上的date参数和一个16位的随机串（会base64）
+      TraceInstall.copy();
+    }
+  </script>
+  <button onclick="download()">点击下载</button>
+</body>
+</html>
